@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lnag="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>鹿児島大学よさこいサークル隼人</title>
+        <meta name="keywords" content="よさこい.鹿児島大学,サークル,ダンス,和風">
+        <meta name="description" content="鹿児島大学のよさこいサークル隼人のサイト。九州各地のお祭りに参加するべく日々練習しています！">
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <!-- ヘッダー -->
+        <header>
+            <h1><a href="index.html"><img src="images/隼人旧ロゴ.jpg" alt="鹿児島大学よさこいサークル隼人"></a></h1>
+            <nav>
+                <ul class="clearfix">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="stagemovie.html">STAGE MOVIE</a></li>
+                    <li><a href="garally.html">GARALLY</a></li>
+                    <li class="current"><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- /ヘッダー -->
+
+        <!-- メイン -->
+
+        <ol id="topic_path">
+            <li><a href="index.html">HOME</a></li>
+            <li>CONTACT</li>   
+        </ol>
+
+
+        <main>
+            <section id="contact">
+                <h2>お問い合わせ</h2>
+                    <p>練習の見学・体験・演舞のご依頼はこちらから、またはTwitter・InstagramのDMよりお問い合わせください。</p>
+                <h3><span>お問合せフォーム</span></h3>
+                   <form action="mail.php" method="post">
+                        <dl class="clearfix">
+                            <dt><label for="name">お名前</label><strong>（必須）</strong></dt>
+                            <dd><input type="text" name="name" id="name" required></dd>
+                            <dt><label for="email">メールアドレス</label><strong>（必須）</strong></dt>
+                            <dd><input type="email" name="email" id="email" required></dd>
+                            <dt>よさこいサークル隼人を知ったきっかけ</dt>
+                            <dd><label><input type="radio" value="answer1" name="questionnaire">SNS</label>
+                                <label><input type="radio" value="answer2" name="questionnaire">演舞を見て</label>
+                                <label><input type="radio" value="answer3" name="questionnaire">その他</label>
+                            </dd>
+                            <dt><labal for="category">お問い合わせ種類</labal></dt>
+                            <dd>
+                                <select name="category" id="category">
+                                    <option value="category1">練習見学・体験のお問い合わせ</option>
+                                    <option value="category2">演舞のご依頼</option>
+                                    <option value="category3">その他のお問い合わせ</option>
+                                </select>
+                            </dd>
+                            <dt><label for="message">お問い合わせ内容</label><strong>（必須）</strong></dt>
+                            <dd><textarea id="message" name="message" cols="40" rows="5" placeholder="お問い合わせ内容をご入力ください。"></textarea></dd>
+                        </dl>
+                        <p class="botton"><input type="submit" value="確認する"></p>
+                    </form>
+            </section>
+        </main>
+        <!-- /メイン -->
+
+        <!-- フッター -->
+        <footer>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">チーム紹介</a></li>
+                <li><a href="blog.html">ブログ</a></li>
+                <li><a href="stagemovie.html">演舞</a></li>
+                <li><a href="garally.html">ギャラリー</a></li>
+                <li><a href="contact.html">お問合せ</a></li>
+            </ul>
+            <small>Copylight &copy; 2023 hayato All Rights Reserved.</small>
+        </footer>
+        <!-- /フッター -->
+
+    </body>
+</html>
